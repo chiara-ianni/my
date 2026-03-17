@@ -1,61 +1,72 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Esteban - Profil</title>
-  //fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-  >
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
    
-    <!-- 1. PROFIL -->
+    <!-- PROFIL -->
     <section class="profile-section">
-      <img src="images/photo-profil.jpg" alt="Esteban" class="avatar" onerror="this.src='https://images.unsplash.com/photo-1494790108755-2616b612b786?w=160'">
+      <div class="avatar-wrapper">
+        <img src="images/photo-profil.jpg" alt="Esteban" class="avatar">
+        <div class="avatar-glow"></div>
+      </div>
       <h1>Esteban</h1>
       <p class="role">UX/UI Designer & Web Developer</p>
       <p class="location">Lille, France</p>
     </section>
 
-    <!-- 2. PASSIONS -->
+    <!-- PASSIONS -->
     <section class="passions-section">
       <h2>🔥 Mes Passions</h2>
       <div class="passions-grid">
         <div class="passion-item">
+          <div class="passion-icon">🎨</div>
           <h3>UX/UI Design</h3>
-          <p>Créer des interfaces intuitives et modernes</p>
+          <p>Créer des interfaces intuitives</p>
         </div>
         <div class="passion-item">
+          <div class="passion-icon">💻</div>
           <h3>Web Development</h3>
-          <p>Coder des sites performants et responsive</p>
+          <p>Coder des sites responsive</p>
         </div>
         <div class="passion-item">
+          <div class="passion-icon">📊</div>
           <h3>Business & Excel</h3>
-          <p>Analyser et optimiser les données</p>
+          <p>Analyser et optimiser</p>
         </div>
       </div>
     </section>
 
-    <!-- 3. OBJECTIFS -->
+    <!-- OBJECTIFS -->
     <section class="objectifs-section">
       <h2>🎯 Mes Objectifs</h2>
       <ul>
-        >Devenir UX/UI Designer senior d'ici 2 ans</li>
-        >Maîtriser React et Next.js</li>
-        >Lancer ma startup d'UX en 2027</li>
-        >Travailler pour une entreprise internationale</li>
+        <li>✅ UX/UI Designer senior (2 ans)</li>
+        <li>⚡ Maîtriser React/Next.js</li>
+        <li>🚀 Lancer ma startup (2027)</li>
+        <li>🌍 Travail international</li>
       </ul>
     </section>
 
-    <!-- 4. RÉSEAUX SOCIAUX -->
+    <!-- RÉSEAUX -->
     <section class="social-section">
       <h2>📱 Me suivre</h2>
       <div class="social-buttons">
-        <a href="https://linkedin.com" class="social-btn linkedin" target="_blank">LinkedIn</a>
-        <a href="https://github.com" class="social-btn github" target="_blank">GitHub</a>
-        <a href="https://instagram.com" class="social-btn instagram" target="_blank">Instagram</a>
+        <a href="#" class="social-btn linkedin">
+          <span>LinkedIn</span>
+        </a>
+        <a href="#" class="social-btn github">
+          <span>GitHub</span>
+        </a>
+        <a href="#" class="social-btn instagram">
+          <span>Instagram</span>
+        </a>
       </div>
     </section>
 
